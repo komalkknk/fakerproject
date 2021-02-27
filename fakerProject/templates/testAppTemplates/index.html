@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/demo.css" %}"/>
+    <title></title>
+    <style>
+          body {
+              background: grey;
+          }
+      </style>
+  </head>
+  <body>
+    <div class="container" align="center">
+      <div class="jumbotron">
+        <h1>Welcome To Jobs Portal!!!</h1>
+        <p>Continuous Update...</p>
+        <p><a class="btn btn-primary btn-lg" href="/punejobsinfo" role="button">Pune Jobs Information</a>&nbsp;&nbsp;&nbsp;&nbsp;
+           <a class="btn btn-primary btn-lg" href="/hydjobsinfo" role="button">Hyderabad Jobs Information</a>&nbsp;&nbsp;&nbsp;&nbsp;
+           <a class="btn btn-primary btn-lg" href="/banglorejobsinfo" role="button">Banglore Jobs Information</a>
+           <a class="btn btn-primary btn-lg" href="/chennaijobsinfo" role="button">Chennai Jobs Information</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
